@@ -1,6 +1,8 @@
-# WatchKit demo app
+# Creating an Apple Watch app in Swift
 
-This demo app shows how to display label, two images and a button on Apple Watch.
+This is a repository used in this tutorial video:
+
+This demo Apple Watch app that has a label, two images and a button. Tapping the button swaps the images.
 
 ### Images
 
