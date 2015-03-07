@@ -23,6 +23,7 @@
 		2BA0D71B1AAA7C1E00E03F3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA0D71A1AAA7C1E00E03F3C /* Images.xcassets */; };
 		2BA0D71E1AAA7C1E00E03F3C /* WatchKitDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BA0D7011AAA7C1E00E03F3C /* WatchKitDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2BA0D7271AAA815B00E03F3C /* penguin_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA0D7261AAA815B00E03F3C /* penguin_small.png */; };
+		2BA0D72A1AAA833800E03F3C /* proud_penguin_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA0D7291AAA833800E03F3C /* proud_penguin_small.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		2BA0D7181AAA7C1E00E03F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		2BA0D71A1AAA7C1E00E03F3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2BA0D7261AAA815B00E03F3C /* penguin_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin_small.png; sourceTree = "<group>"; };
+		2BA0D7291AAA833800E03F3C /* proud_penguin_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = proud_penguin_small.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				2BA0D7261AAA815B00E03F3C /* penguin_small.png */,
+				2BA0D7291AAA833800E03F3C /* proud_penguin_small.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BA0D7191AAA7C1E00E03F3C /* Interface.storyboard in Resources */,
+				2BA0D72A1AAA833800E03F3C /* proud_penguin_small.png in Resources */,
 				2BA0D71B1AAA7C1E00E03F3C /* Images.xcassets in Resources */,
 				2BA0D7271AAA815B00E03F3C /* penguin_small.png in Resources */,
 			);

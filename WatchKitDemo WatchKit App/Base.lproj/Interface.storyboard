@@ -10,14 +10,14 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKitDemo_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="center" text="Hello Penguin!" id="u7J-CL-g83"/>
+                        <label alignment="center" text="Hey Penguins!" id="u7J-CL-g83"/>
                         <group width="1" height="69" alignment="left" id="ePw-Lp-QfH">
                             <items>
-                                <imageView width="62" height="61" alignment="left" image="penguin_small.png" contentMode="scaleAspectFit" id="hDZ-ET-x3G"/>
-                                <imageView alignment="right" image="Default.png" id="u9l-gb-lk3"/>
+                                <imageView width="0.50000000000000011" height="1" alignment="left" image="penguin_small.png" contentMode="scaleAspectFit" id="hDZ-ET-x3G"/>
+                                <imageView width="0.50000000000000011" height="1" alignment="right" image="proud_penguin_small.png" contentMode="scaleAspectFit" id="u9l-gb-lk3"/>
                             </items>
                         </group>
-                        <button width="1" alignment="left" title="Button" id="0ni-8G-hW0"/>
+                        <button width="1" alignment="left" title="Qua!" id="0ni-8G-hW0"/>
                     </items>
                 </controller>
             </objects>
