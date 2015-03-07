@@ -11,21 +11,43 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
+  @IBOutlet weak var penguinOneImage: WKInterfaceImage!
+  @IBOutlet weak var penguinTwoImage: WKInterfaceImage!
 
-    override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
-        
-        // Configure interface objects here.
-    }
+  var penguinImages = [
+    "penguin_one.png",
+    "penguin_two.png"
+  ]
 
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
-    }
+  override func awakeWithContext(context: AnyObject?) {
+    super.awakeWithContext(context)
+    
+    // Configure interface objects here.
+  }
 
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
-        super.didDeactivate()
-    }
+  override func willActivate() {
+    // This method is called when watch view controller is about to be visible to user
+      super.willActivate()
 
+    showImages()
+  }
+
+  override func didDeactivate() {
+      // This method is called when watch view controller is no longer visible
+      super.didDeactivate()
+  }
+
+  @IBAction func onQuaButtonTapped() {
+    swapImages()
+    showImages()
+  }
+
+  private func swapImages() {
+    penguinImages = penguinImages.reverse()
+  }
+
+  private func showImages() {
+    penguinOneImage.setImageNamed(penguinImages[0])
+    penguinTwoImage.setImageNamed(penguinImages[1])
+  }
 }

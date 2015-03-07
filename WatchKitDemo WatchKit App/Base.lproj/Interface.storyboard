@@ -13,12 +13,20 @@
                         <label alignment="center" text="Hey Penguins!" id="u7J-CL-g83"/>
                         <group width="1" height="69" alignment="left" id="ePw-Lp-QfH">
                             <items>
-                                <imageView width="0.50000000000000011" height="1" alignment="left" image="penguin_small.png" contentMode="scaleAspectFit" id="hDZ-ET-x3G"/>
-                                <imageView width="0.50000000000000011" height="1" alignment="right" image="proud_penguin_small.png" contentMode="scaleAspectFit" id="u9l-gb-lk3"/>
+                                <imageView width="0.50000000000000011" height="1" alignment="left" image="penguin_one.png" contentMode="scaleAspectFit" id="hDZ-ET-x3G"/>
+                                <imageView width="0.50000000000000011" height="1" alignment="right" image="penguin_two.png" contentMode="scaleAspectFit" id="u9l-gb-lk3"/>
                             </items>
                         </group>
-                        <button width="1" alignment="left" title="Qua!" id="0ni-8G-hW0"/>
+                        <button width="1" alignment="left" title="Qua!" id="0ni-8G-hW0">
+                            <connections>
+                                <action selector="onQuaButtonTapped" destination="AgC-eL-Hgc" id="Pp4-Dg-r3S"/>
+                            </connections>
+                        </button>
                     </items>
+                    <connections>
+                        <outlet property="penguinOneImage" destination="hDZ-ET-x3G" id="jRw-Ep-hfY"/>
+                        <outlet property="penguinTwoImage" destination="u9l-gb-lk3" id="hne-MO-xo1"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
