@@ -10,7 +10,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKitDemo_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="center" text="Hey Penguins!" id="u7J-CL-g83"/>
+                        <label alignment="center" text="Penguins!" id="u7J-CL-g83"/>
                         <group width="1" height="69" alignment="left" id="ePw-Lp-QfH">
                             <items>
                                 <imageView width="0.50000000000000011" height="1" alignment="left" image="penguin_one.png" contentMode="scaleAspectFit" id="hDZ-ET-x3G"/>
