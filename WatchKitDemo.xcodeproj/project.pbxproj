@@ -22,6 +22,7 @@
 		2BA0D7191AAA7C1E00E03F3C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BA0D7171AAA7C1E00E03F3C /* Interface.storyboard */; };
 		2BA0D71B1AAA7C1E00E03F3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BA0D71A1AAA7C1E00E03F3C /* Images.xcassets */; };
 		2BA0D71E1AAA7C1E00E03F3C /* WatchKitDemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BA0D7011AAA7C1E00E03F3C /* WatchKitDemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2BA0D7271AAA815B00E03F3C /* penguin_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA0D7261AAA815B00E03F3C /* penguin_small.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		2BA0D7161AAA7C1E00E03F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BA0D7181AAA7C1E00E03F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		2BA0D71A1AAA7C1E00E03F3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2BA0D7261AAA815B00E03F3C /* penguin_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin_small.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +199,7 @@
 		2BA0D7141AAA7C1E00E03F3C /* WatchKitDemo WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
+				2BA0D7281AAA817000E03F3C /* Images */,
 				2BA0D7171AAA7C1E00E03F3C /* Interface.storyboard */,
 				2BA0D71A1AAA7C1E00E03F3C /* Images.xcassets */,
 				2BA0D7151AAA7C1E00E03F3C /* Supporting Files */,
@@ -210,6 +213,14 @@
 				2BA0D7161AAA7C1E00E03F3C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BA0D7281AAA817000E03F3C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2BA0D7261AAA815B00E03F3C /* penguin_small.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,6 +375,7 @@
 			files = (
 				2BA0D7191AAA7C1E00E03F3C /* Interface.storyboard in Resources */,
 				2BA0D71B1AAA7C1E00E03F3C /* Images.xcassets in Resources */,
+				2BA0D7271AAA815B00E03F3C /* penguin_small.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
