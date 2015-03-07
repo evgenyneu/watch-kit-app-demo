@@ -14,7 +14,7 @@ class InterfaceController: WKInterfaceController {
   @IBOutlet weak var penguinOneImage: WKInterfaceImage!
   @IBOutlet weak var penguinTwoImage: WKInterfaceImage!
 
-  var penguinImages = [
+  var imageNames = [
     "penguin_one.png",
     "penguin_two.png"
   ]
@@ -28,8 +28,6 @@ class InterfaceController: WKInterfaceController {
   override func willActivate() {
     // This method is called when watch view controller is about to be visible to user
     super.willActivate()
-
-    showImages()
   }
 
   override func didDeactivate() {
@@ -38,16 +36,8 @@ class InterfaceController: WKInterfaceController {
   }
 
   @IBAction func onQuaButtonTapped() {
-    swapImages()
-    showImages()
-  }
-
-  private func swapImages() {
-    penguinImages = penguinImages.reverse()
-  }
-
-  private func showImages() {
-    penguinOneImage.setImageNamed(penguinImages[0])
-    penguinTwoImage.setImageNamed(penguinImages[1])
+    imageNames = imageNames.reverse()
+    penguinOneImage.setImageNamed(imageNames[0])
+    penguinTwoImage.setImageNamed(imageNames[1])
   }
 }

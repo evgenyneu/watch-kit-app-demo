@@ -10,62 +10,25 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchKitDemo_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="center" text="Penguins!" id="u7J-CL-g83"/>
-                        <group width="1" height="69" alignment="left" id="ePw-Lp-QfH">
+                        <label alignment="center" text="Penguins!" id="47Q-F5-N0Z"/>
+                        <group width="1" alignment="left" id="suR-pH-pkA">
                             <items>
-                                <imageView width="0.50000000000000011" height="1" alignment="left" image="penguin_one.png" contentMode="scaleAspectFit" id="hDZ-ET-x3G"/>
-                                <imageView width="0.50000000000000011" height="1" alignment="right" image="penguin_two.png" contentMode="scaleAspectFit" id="u9l-gb-lk3"/>
+                                <imageView width="0.5" height="1" alignment="left" image="penguin_one.png" id="lyI-l8-4Os"/>
+                                <imageView width="0.5" height="1" alignment="right" image="penguin_two.png" id="DmL-aM-GNd"/>
                             </items>
                         </group>
-                        <button width="1" alignment="left" title="Qua!" id="0ni-8G-hW0">
+                        <button width="1" alignment="left" title="Qua!" id="mzz-fY-wyP">
                             <connections>
-                                <action selector="onQuaButtonTapped" destination="AgC-eL-Hgc" id="Pp4-Dg-r3S"/>
+                                <action selector="onQuaButtonTapped" destination="AgC-eL-Hgc" id="ZZm-sm-FwG"/>
                             </connections>
                         </button>
                     </items>
                     <connections>
-                        <outlet property="penguinOneImage" destination="hDZ-ET-x3G" id="jRw-Ep-hfY"/>
-                        <outlet property="penguinTwoImage" destination="u9l-gb-lk3" id="hne-MO-xo1"/>
+                        <outlet property="penguinOneImage" destination="lyI-l8-4Os" id="hrM-ij-ydl"/>
+                        <outlet property="penguinTwoImage" destination="DmL-aM-GNd" id="ocV-vq-co2"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="235" y="347"/>
-        </scene>
-        <!--Glance Interface Controller-->
-        <scene sceneID="BOz-TT-tkC">
-            <objects>
-                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModule="WatchKitDemo_WatchKit_App" customModuleProvider="target">
-                    <items>
-                        <group alignment="left" id="t8f-Gd-c4y"/>
-                        <group alignment="left" id="uCw-4Q-Ouw"/>
-                    </items>
-                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
-                </glanceController>
-            </objects>
-            <point key="canvasLocation" x="235" y="672"/>
-        </scene>
-        <!--Static Notification Interface Controller-->
-        <scene sceneID="AEw-b0-oYE">
-            <objects>
-                <notificationController id="YCC-NB-fut">
-                    <items>
-                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
-                    </items>
-                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
-                    <connections>
-                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
-                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
-                    </connections>
-                </notificationController>
-            </objects>
-            <point key="canvasLocation" x="235" y="1001"/>
-        </scene>
-        <!--Notification Controller-->
-        <scene sceneID="KIl-fV-djm">
-            <objects>
-                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="WatchKitDemo_WatchKit_App" customModuleProvider="target"/>
-            </objects>
-            <point key="canvasLocation" x="553" y="1001"/>
         </scene>
     </scenes>
 </document>
