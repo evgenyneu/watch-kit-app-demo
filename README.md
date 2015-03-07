@@ -2,7 +2,7 @@
 
 This is the source code for this video tutorial: http://youtu.be/vTuy7pi1Q54
 
-This demo Apple Watch app that has a label, two images and a button. Tapping the button swaps the images.
+This demo Apple Watch has a label, two images in a group and a button. Tapping the button swaps the images.
 
 <img src="https://raw.githubusercontent.com/evgenyneu/watch-kit-app-demo/master/Graphics/apple_watch_app_tutorial.png" alt="creating an apple watch app tutorial" width="136">
 
