@@ -1,6 +1,6 @@
 # Creating an Apple Watch app in Swift
 
-This is a repository used in this tutorial video:
+This is the source code for this tutorial video:
 
 This demo Apple Watch app that has a label, two images and a button. Tapping the button swaps the images.
 
